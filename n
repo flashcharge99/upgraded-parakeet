@@ -1,0 +1,12 @@
+VLESS + CloudFlare WARP
+Quota: 1024 GB
+Expired: 30 Day
+
+Link TLS
+vless://96aad234-ad76-464a-bd50-0b8f6872c1b2@warp.vpnfoundation.cloud:443/?type=ws&encryption=none&flow=&host=warp.vpnfoundation.cloud&path=/fAwJQZdZWcv431LxhRUlw6mZYxnnCw&security=tls&sni=warp.vpnfoundation.cloud&allowInsecure=1#tls
+
+Link HTTP
+vless://96aad234-ad76-464a-bd50-0b8f6872c1b2@warp.vpnfoundation.cloud:80/?type=ws&encryption=none&flow=&host=warp.vpnfoundation.cloud&path=/fAwJQZdZWcv431LxhRUlw6mZYxnnCw#http
+
+Link gRPC
+vless://96aad234-ad76-464a-bd50-0b8f6872c1b2@warp.vpnfoundation.cloud:443/?type=grpc&encryption=none&flow=&serviceName=fAwJQZdZWcv431LbRTF2z3&security=tls&sni=warp.vpnfoundation.cloud&allowInsecure=1#grpc
